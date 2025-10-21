@@ -2,6 +2,9 @@
 //
 
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <vector> 
 using namespace std;
 
 int main()
@@ -81,34 +84,111 @@ int main()
 		//if (i % n == 0) {
 			//suma += 1;}}
 	//cout << suma << endl;	
-	cout << "Zadanie 11: " << endl << endl;
-	int a, b;
-	cout << " Podaj liczbe a: " << endl;
-	cin >> a;
-	cout << "Podaj liczbe b: " << endl;
-	cin >> b;
-	if (a < b) {
-		for (int i = a; i <= b; i++) {
-			if (i % 3 == 0) {
-				cout << i << endl;
-			}
-		}
-	}
-	else if (a > b) {
-		for (int i = b; i <= b; i++) {
-			if (i % 3 == 0) {
-				cout << i << endl;
-			}
-		}
-	}
-	else {
-		cout << "Liczby sa rowne" << endl;
-		if (a % 3 == 0) {
-			cout << a << endl;
-		}
-	}
-	
+	//cout << "Zadanie 11: " << endl << endl;
+	//int a, b;
+	//cout << " Podaj liczbe a: " << endl;
+	//cin >> a;
+	//cout << "Podaj liczbe b: " << endl;
+	//cin >> b;
+	//if (a < b) {
+		//for (int i = a; i <= b; i++) {
+			//if (i % 3 == 0) {
+				//cout << i << endl;
+			//}
+		//}
+	//}
+	//else if (a > b) {
+		//for (int i = b; i <= a; i++) {
+			//if (i % 3 == 0) {
+				//cout << i << endl;
+			//}
+		//}
+	//}
+	//else {
+		//cout << "Liczby sa rowne" << endl;
+		//if (a % 3 == 0) {
+			//cout << a << endl;
+		//}
+	//}
+	//cout << "Zadanie 12: " << endl;
+//int n;
+//double liczba, suma = 0;
+//cout << "Wprowadz n: " << endl;
+//cin >> n;
+//cout << "Podaj  " << n << "  liczb" << endl;
+//for (int i = 1; i <= n;i++){
+	//cin >> liczba;
+	//suma += liczba;
+//}
+//double srednia = suma / n;
+//cout << "Srednia arytmetyczna wynosi : " << srednia << endl;
+//cout << "Zadanie 13:  " << endl;
+//for (int i = 100; i >= 0;i--) {
+	//cout << i << endl;
+//}
+//cout << "Zadanie 14: " << endl;
+//int a, b, c;
+//cout << "Podaj pierwszą liczbe : " << endl;
+//cin >> a;
+//cout << " Podaj druga liczbe: " << endl;
+//cin >> b;
+//cout << " Podaj trzecia liczbe: " << endl;
+//cin >> c;
+//int najmniejsza = a;
+//if (b < najmniejsza) {
+	//najmniejsza = b;
+//}
+//if (c < najmniejsza) { 
+	//najmniejsza = c; }
+//cout << "Najmiejsza liczba to: " << najmniejsza << endl;
+//cout<<"Zadanie 15: " << endl;
+//int n, m;
+//cout << "Podaj n: " << endl;
+//cin >> n,
+//cout << " Podaj m : " << endl;
+//cin >> m;
+//srand(time(0));
+//vector<int> liczby;
+//vector<int> wylosowane;
+//for (int i = 0; i <= m; i++) {
+	//liczby.push_back(i); 
+//}
+//for (int i = 0;i < n;i++) {
+	//int index = rand () % liczby.size();
+	//wylosowane.push_back(liczby[index]);
+//}
+//cout << "Wylosowane liczby: ";
+//for (int i = 0; i < wylosowane.size(); i++) {
+	//cout << wylosowane[i] << " ";
+//}
+//cout << "Zadanie 16:  " << endl;
+//int szczesliwy;
+//cout << "Podaj swoj szczesliwy numerek: ";
+//cin >> szczesliwy;
+//srand(time(0)); 
+//vector<int> liczby;      
+//vector<int> wylosowane; 
+//for (int i = 1; i <= 10; i++) {
+	//liczby.push_back(i);
+//}
+//for (int i = 0; i < 10; i++) {
+	//int index = rand() % liczby.size();      
+	//wylosowane.push_back(liczby[index]);   
+//}
+//int licznik = 0;
+//for (int i = 0; i < wylosowane.size(); i++) {
+	//if (wylosowane[i] == szczesliwy) {
+		//licznik++;
+	//}
+//}
 
+//cout << "Wylosowane liczby: ";
+//for (int i = 0; i < wylosowane.size(); i++) {
+	//cout << wylosowane[i] << " ";
+//}
+//cout << endl;
+
+//cout << "Szczesliwy numerek pojawil sie " << licznik << " razy." << endl;
 
 }
 
